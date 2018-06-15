@@ -20,12 +20,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['es3'],
-            plugins: [
-              "transform-es2015-modules-commonjs",
-              "transform-es3-member-expression-literals", 
-              "transform-es3-property-literals"
-            ]
+            presets: ['env', 'es3']
           }
         }
       }
