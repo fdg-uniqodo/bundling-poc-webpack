@@ -14,6 +14,12 @@
     "babel-polyfill": "^6.0.16"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es3": "^1.0.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "csv-loader": "^2.1.1",
