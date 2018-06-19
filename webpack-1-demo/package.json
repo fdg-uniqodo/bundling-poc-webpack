@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "node-libs-browser": "^0.6.0",
     "webpack": "^1.10.1"
   },
   "scripts": {
