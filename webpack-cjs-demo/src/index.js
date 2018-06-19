@@ -1,4 +1,5 @@
 var printMe = require('./print');
+var spit = require('./spit');
 
 function component() {
     var element = document.createElement('div');
@@ -7,6 +8,8 @@ function component() {
     element.innerHTML = 'hello code';
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
+
+    spit();
 
     element.appendChild(btn);
   
