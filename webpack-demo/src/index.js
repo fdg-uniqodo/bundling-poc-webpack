@@ -1,5 +1,5 @@
 import printMe from './print.js';
-import './spit.js';
+import spit from './spit.js';
 
 function component() {
     var element = document.createElement('div');
@@ -8,6 +8,8 @@ function component() {
     element.innerHTML = 'hello code';
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
+
+    spit();
 
     element.appendChild(btn);
   
